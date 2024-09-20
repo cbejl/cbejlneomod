@@ -32,9 +32,7 @@ public class EvilPCCrafterBlock extends Block {
 
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand handIn, BlockHitResult pHit) {
-        System.out.println("сраб 1" + level.isClientSide + " | " + player.getName().getString() + " | " + handIn.name() + " | " + pHit.toString());
         if (handIn.equals(InteractionHand.MAIN_HAND)) return craft(level, pos);
-        System.out.println("сраб 2" + level.isClientSide + " | " + player.getName().getString() + " | " + handIn.name() + " | " + pHit);
         return InteractionResult.PASS;
     }
 
