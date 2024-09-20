@@ -3,13 +3,9 @@ package cbejl.mods.cbejlneomod.block;
 import cbejl.mods.cbejlneomod.block.entity.CbejlBlockEntities;
 import cbejl.mods.cbejlneomod.block.entity.EvilPCBlockEntity;
 import cbejl.mods.cbejlneomod.recipe.EvilPCRecipe;
-import net.minecraft.client.particle.ParticleEngine;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.network.PacketBundlePacker;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.server.commands.ParticleCommand;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.Containers;
 import net.minecraft.world.InteractionHand;
@@ -38,7 +34,7 @@ public class EvilPCCrafterBlock extends Block {
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand handIn, BlockHitResult pHit) {
         System.out.println("сраб 1" + level.isClientSide + " | " + player.getName().getString() + " | " + handIn.name() + " | " + pHit.toString());
         if (handIn.equals(InteractionHand.MAIN_HAND)) return craft(level, pos);
-        System.out.println("сраб 2" + level.isClientSide + " | " + player.getName().getString() + " | " + handIn.name() + " | " + pHit.toString());
+        System.out.println("сраб 2" + level.isClientSide + " | " + player.getName().getString() + " | " + handIn.name() + " | " + pHit);
         return InteractionResult.PASS;
     }
 
@@ -71,7 +67,7 @@ public class EvilPCCrafterBlock extends Block {
                 pos.getCenter().y() + 1,
                 pos.getCenter().z() + (Math.random() - 0.5) / 4,
                 10,
-                0.1, 0.1,0.1,
+                0.1, 0.1, 0.1,
                 0.1);
 
         return InteractionResult.SUCCESS;

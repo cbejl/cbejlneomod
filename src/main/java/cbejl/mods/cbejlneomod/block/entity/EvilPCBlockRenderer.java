@@ -14,13 +14,13 @@ import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LightLayer;
-import net.minecraft.world.level.block.LightBlock;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 
 public class EvilPCBlockRenderer implements BlockEntityRenderer<EvilPCBlockEntity> {
-    public EvilPCBlockRenderer(BlockEntityRendererProvider.Context context) {}
+    public EvilPCBlockRenderer(BlockEntityRendererProvider.Context context) {
+    }
 
-    public static final float PIXEL_SIZE = 1f/16f;
+    public static final float PIXEL_SIZE = 1f / 16f;
 
     @Override
     public void render(EvilPCBlockEntity evilPCBlockEntity, float v, PoseStack poseStack, MultiBufferSource multiBufferSource, int i, int i1) {
