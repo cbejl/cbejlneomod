@@ -1,0 +1,18 @@
+{
+  "type": "cbejlneomod:evil_pctration",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "minecraft:cauldron"
+    },
+    {
+      "item": "minecraft:brewing_stand"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "cbejlneomod:charon_baby"
+  }
+}

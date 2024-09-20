@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=south": { "model": "cbejlneomod:block/evil_computer","y":180 },
+    "facing=east": { "model": "cbejlneomod:block/evil_computer","y":90 },
+    "facing=west": { "model": "cbejlneomod:block/evil_computer","y":270 },
+    "facing=north": { "model": "cbejlneomod:block/evil_computer" }
+  }
+}

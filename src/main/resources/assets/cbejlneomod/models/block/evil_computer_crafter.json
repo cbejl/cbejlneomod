@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "cbejlneomod:block/evil_computer_crafter_bottom",
+    "east": "cbejlneomod:block/evil_computer_crafter_side",
+    "north": "cbejlneomod:block/evil_computer_crafter_front",
+    "particle": "cbejlneomod:block/evil_computer_crafter_front",
+    "south": "cbejlneomod:block/evil_computer_crafter_front",
+    "up": "cbejlneomod:block/evil_computer_crafter_top",
+    "west": "cbejlneomod:block/evil_computer_crafter_side"
+  }
+}

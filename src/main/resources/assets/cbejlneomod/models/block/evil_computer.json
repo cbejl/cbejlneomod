@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "cbejlneomod:block/evil_computer",
+		"1": "cbejlneomod:block/evil_computer_2",
+		"particle": "cbejlneomod:block/evil_computer"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [8, 2, 16, 4], "texture": "#0"},
+				"south": {"uv": [8, 4, 16, 6], "texture": "#0"},
+				"west": {"uv": [8, 6, 16, 8], "texture": "#0"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 4, 6],
+			"to": [15, 15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 2.75], "texture": "#1"},
+				"east": {"uv": [3.5, 5, 6, 7.75], "texture": "#1"},
+				"south": {"uv": [0, 2.75, 3.5, 5.5], "texture": "#1"},
+				"west": {"uv": [0, 5.5, 2.5, 8.25], "texture": "#1"},
+				"up": {"uv": [7, 2.5, 3.5, 0], "texture": "#1"},
+				"down": {"uv": [7, 2.5, 3.5, 5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {}
+}
